@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="6198" systemVersion="14A297b" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6198"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6751"/>
     </dependencies>
     <scenes>
         <!--Application-->
@@ -10,11 +10,11 @@
                 <application id="hnw-xV-0zn" sceneMemberID="viewController">
                     <menu key="mainMenu" title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
                         <items>
-                            <menuItem title="ModelGenerator" id="1Xt-HY-uBw">
+                            <menuItem title="Model Generator" id="1Xt-HY-uBw">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <menu key="submenu" title="ModelGenerator" systemMenu="apple" id="uQy-DD-JDr">
+                                <menu key="submenu" title="Model Generator" systemMenu="apple" id="uQy-DD-JDr">
                                     <items>
-                                        <menuItem title="About ModelGenerator" id="5kV-Vb-QxS">
+                                        <menuItem title="About Model Generator" id="5kV-Vb-QxS">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
                                                 <action selector="orderFrontStandardAboutPanel:" target="Ady-hI-5gd" id="Exp-CZ-Vem"/>
@@ -28,7 +28,7 @@
                                             <menu key="submenu" title="Services" systemMenu="services" id="hz9-B4-Xy5"/>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="4je-JR-u6R"/>
-                                        <menuItem title="Hide ModelGenerator" keyEquivalent="h" id="Olw-nP-bQN">
+                                        <menuItem title="Hide Model Generator" keyEquivalent="h" id="Olw-nP-bQN">
                                             <connections>
                                                 <action selector="hide:" target="Ady-hI-5gd" id="PnN-Uc-m68"/>
                                             </connections>
@@ -46,7 +46,7 @@
                                             </connections>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
-                                        <menuItem title="Quit ModelGenerator" keyEquivalent="q" id="4sb-4s-VLi">
+                                        <menuItem title="Quit Model Generator" keyEquivalent="q" id="4sb-4s-VLi">
                                             <connections>
                                                 <action selector="terminate:" target="Ady-hI-5gd" id="Te7-pn-YzF"/>
                                             </connections>
@@ -627,7 +627,7 @@
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <menu key="submenu" title="Help" systemMenu="help" id="F2S-fz-NVQ">
                                     <items>
-                                        <menuItem title="ModelGenerator Help" keyEquivalent="?" id="FKE-Sm-Kum">
+                                        <menuItem title="Model Generator Help" keyEquivalent="?" id="FKE-Sm-Kum">
                                             <connections>
                                                 <action selector="showHelp:" target="Ady-hI-5gd" id="y7X-2Q-9no"/>
                                             </connections>
@@ -641,19 +641,19 @@
                         <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
                     </connections>
                 </application>
-                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModuleProvider=""/>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="75" y="0.0"/>
         </scene>
-        <!--Window Controller - Window-->
+        <!--Window Controller-->
         <scene sceneID="R2V-B0-nI4">
             <objects>
                 <windowController id="B8D-0N-5wS" sceneMemberID="viewController">
-                    <window key="window" title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
+                    <window key="window" title="Model Generator" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-                        <rect key="contentRect" x="196" y="240" width="480" height="270"/>
+                        <rect key="contentRect" x="196" y="240" width="800" height="600"/>
                         <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
                     </window>
                     <connections>
@@ -667,15 +667,136 @@
         <!--View Controller-->
         <scene sceneID="hIz-AP-VOD">
             <objects>
-                <viewController id="XfG-lQ-9wD" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="XfG-lQ-9wD" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" id="m2S-Jp-Qdl">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                        <rect key="frame" x="0.0" y="0.0" width="800" height="600"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="A46-hw-9ey">
+                                <rect key="frame" x="10" y="560" width="449" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="LaZ-XN-4e4"/>
+                                </constraints>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" placeholderString="Paste URL here or your JSON into the text field below" drawsBackground="YES" id="n5l-Z5-vr9">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <scrollView horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Xw-Ur-7s8">
+                                <rect key="frame" x="10" y="36" width="780" height="516"/>
+                                <clipView key="contentView" id="92C-qz-Kux">
+                                    <rect key="frame" x="1" y="1" width="223" height="133"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <textView importsGraphics="NO" findStyle="panel" continuousSpellChecking="YES" allowsUndo="YES" usesRuler="YES" usesFontPanel="YES" verticallyResizable="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" smartInsertDelete="YES" id="FL3-CI-vgv">
+                                            <rect key="frame" x="0.0" y="0.0" width="223" height="532"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <size key="minSize" width="778" height="514"/>
+                                            <size key="maxSize" width="780" height="10000000"/>
+                                            <color key="insertionPointColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <size key="minSize" width="778" height="514"/>
+                                            <size key="maxSize" width="780" height="10000000"/>
+                                        </textView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </clipView>
+                                <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="YES" id="EZm-m7-HvC">
+                                    <rect key="frame" x="-100" y="-100" width="87" height="18"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </scroller>
+                                <scroller key="verticalScroller" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="wAj-kt-OVD">
+                                    <rect key="frame" x="224" y="1" width="15" height="133"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </scroller>
+                            </scrollView>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Xvq-nw-6Sg">
+                                <rect key="frame" x="257" y="4" width="535" height="29"/>
+                                <buttonCell key="cell" type="bevel" title="Generate" bezelStyle="regularSquare" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="vff-lb-XT1">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="didTouchGenerate:" target="XfG-lQ-9wD" id="2KL-qH-zfZ"/>
+                                </connections>
+                            </button>
+                            <popUpButton verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="2ug-l7-g8J">
+                                <rect key="frame" x="8" y="4" width="246" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="241" id="wtH-rX-6SA"/>
+                                </constraints>
+                                <popUpButtonCell key="cell" type="push" alternateTitle="Language" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" id="sMc-Jp-LeR">
+                                    <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="menu"/>
+                                    <menu key="menu" id="1eh-SL-Yce">
+                                        <items>
+                                            <menuItem title="Objective-C" id="9o9-ps-u3z" userLabel="Objective-C"/>
+                                            <menuItem title="Swift" id="Ea3-lF-Kh1" userLabel="Swift"/>
+                                            <menuItem title="Java" id="jpG-es-RRg" userLabel="Java"/>
+                                        </items>
+                                    </menu>
+                                </popUpButtonCell>
+                            </popUpButton>
+                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="XXU-1F-16N">
+                                <rect key="frame" x="467" y="560" width="92" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="92" id="YFJ-GN-szB"/>
+                                    <constraint firstAttribute="height" constant="30" id="bzm-Tg-JGL"/>
+                                </constraints>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" placeholderString="Class Prefix" drawsBackground="YES" id="Bxu-S6-uZ7">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="CIK-Vt-gi2">
+                                <rect key="frame" x="567" y="560" width="223" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="223" id="vbV-Jd-eTT"/>
+                                    <constraint firstAttribute="height" constant="30" id="w6E-1Q-SUh"/>
+                                </constraints>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" placeholderString="Base Class (Default NSObject)" drawsBackground="YES" id="sVb-98-Smg">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="CIK-Vt-gi2" firstAttribute="leading" secondItem="XXU-1F-16N" secondAttribute="trailing" constant="8" id="0p1-Lh-oQc"/>
+                            <constraint firstAttribute="trailing" secondItem="CIK-Vt-gi2" secondAttribute="trailing" constant="10" id="3Y2-XM-y13"/>
+                            <constraint firstItem="XXU-1F-16N" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="10" id="4FJ-XI-B6k"/>
+                            <constraint firstItem="2ug-l7-g8J" firstAttribute="top" secondItem="Xvq-nw-6Sg" secondAttribute="top" constant="3" id="6Ge-9u-6Wo"/>
+                            <constraint firstItem="XXU-1F-16N" firstAttribute="leading" secondItem="A46-hw-9ey" secondAttribute="trailing" constant="8" id="7d7-xe-uyr"/>
+                            <constraint firstItem="5Xw-Ur-7s8" firstAttribute="top" secondItem="A46-hw-9ey" secondAttribute="bottom" constant="8" id="Aoh-qS-kuI"/>
+                            <constraint firstItem="A46-hw-9ey" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="10" id="DYS-3H-ASX"/>
+                            <constraint firstItem="2ug-l7-g8J" firstAttribute="top" secondItem="5Xw-Ur-7s8" secondAttribute="bottom" constant="8" id="Dfe-aM-8P1"/>
+                            <constraint firstAttribute="bottom" secondItem="2ug-l7-g8J" secondAttribute="bottom" constant="7" id="DzW-DQ-aIA"/>
+                            <constraint firstItem="5Xw-Ur-7s8" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="JaT-6N-Nk5"/>
+                            <constraint firstItem="5Xw-Ur-7s8" firstAttribute="top" secondItem="XXU-1F-16N" secondAttribute="bottom" constant="8" id="T14-nU-pz3"/>
+                            <constraint firstItem="Xvq-nw-6Sg" firstAttribute="leading" secondItem="2ug-l7-g8J" secondAttribute="trailing" constant="8" symbolic="YES" id="Y5G-EL-M4L"/>
+                            <constraint firstItem="CIK-Vt-gi2" firstAttribute="leading" secondItem="XXU-1F-16N" secondAttribute="trailing" constant="8" id="fnn-uP-l2A"/>
+                            <constraint firstItem="2ug-l7-g8J" firstAttribute="leading" secondItem="5Xw-Ur-7s8" secondAttribute="leading" id="gmb-iH-81X"/>
+                            <constraint firstItem="5Xw-Ur-7s8" firstAttribute="top" secondItem="CIK-Vt-gi2" secondAttribute="bottom" constant="8" id="lQi-rR-RnL"/>
+                            <constraint firstItem="CIK-Vt-gi2" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="10" id="oYn-yz-HYW"/>
+                            <constraint firstItem="2ug-l7-g8J" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="10" id="u1Q-J7-Zb4"/>
+                            <constraint firstItem="A46-hw-9ey" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="10" id="uMk-Wj-PDO"/>
+                            <constraint firstItem="5Xw-Ur-7s8" firstAttribute="trailing" secondItem="Xvq-nw-6Sg" secondAttribute="trailing" id="yg8-RR-ZSv"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="generate" destination="Xvq-nw-6Sg" id="KcZ-qP-XWO"/>
+                        <outlet property="json" destination="FL3-CI-vgv" id="bcJ-ZK-MyM"/>
+                        <outlet property="language" destination="2ug-l7-g8J" id="2UK-zP-gba"/>
+                        <outlet property="prefix" destination="XXU-1F-16N" id="pfF-hG-qOS"/>
+                        <outlet property="subClass" destination="CIK-Vt-gi2" id="BCu-fs-i7c"/>
+                        <outlet property="url" destination="A46-hw-9ey" id="isv-wF-eXy"/>
+                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="655"/>
+            <point key="canvasLocation" x="74" y="1043"/>
         </scene>
     </scenes>
 </document>
