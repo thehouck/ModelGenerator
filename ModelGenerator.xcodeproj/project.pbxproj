@@ -13,7 +13,7 @@
 		DDD187581ACC8ADB008BF921 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDD187571ACC8ADB008BF921 /* Images.xcassets */; };
 		DDD1875B1ACC8ADC008BF921 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDD187591ACC8ADC008BF921 /* Main.storyboard */; };
 		DDD187671ACC8ADC008BF921 /* ModelGeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD187661ACC8ADC008BF921 /* ModelGeneratorTests.m */; };
-		DDD187731ACC8B2E008BF921 /* ModelGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD187721ACC8B2E008BF921 /* ModelGenerator.m */; };
+		DDD187771ACC8C73008BF921 /* ModelGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD187761ACC8C73008BF921 /* ModelGenerator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +39,8 @@
 		DDD187601ACC8ADC008BF921 /* ModelGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModelGeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDD187651ACC8ADC008BF921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDD187661ACC8ADC008BF921 /* ModelGeneratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelGeneratorTests.m; sourceTree = "<group>"; };
-		DDD187711ACC8B2E008BF921 /* ModelGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelGenerator.h; sourceTree = "<group>"; };
-		DDD187721ACC8B2E008BF921 /* ModelGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelGenerator.m; sourceTree = "<group>"; };
+		DDD187751ACC8C73008BF921 /* ModelGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelGenerator.h; sourceTree = "<group>"; };
+		DDD187761ACC8C73008BF921 /* ModelGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelGenerator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +82,7 @@
 		DDD1874C1ACC8ADB008BF921 /* ModelGenerator */ = {
 			isa = PBXGroup;
 			children = (
-				DDD187701ACC8B2E008BF921 /* api */,
+				DDD187741ACC8C73008BF921 /* api */,
 				DDD1874F1ACC8ADB008BF921 /* AppDelegate.h */,
 				DDD187501ACC8ADB008BF921 /* AppDelegate.m */,
 				DDD187541ACC8ADB008BF921 /* ViewController.h */,
@@ -120,14 +120,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		DDD187701ACC8B2E008BF921 /* api */ = {
+		DDD187741ACC8C73008BF921 /* api */ = {
 			isa = PBXGroup;
 			children = (
-				DDD187711ACC8B2E008BF921 /* ModelGenerator.h */,
-				DDD187721ACC8B2E008BF921 /* ModelGenerator.m */,
+				DDD187751ACC8C73008BF921 /* ModelGenerator.h */,
+				DDD187761ACC8C73008BF921 /* ModelGenerator.m */,
 			);
-			name = api;
-			path = "../../Model Generator/ModelGenerator/api";
+			path = api;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +231,7 @@
 				DDD187561ACC8ADB008BF921 /* ViewController.m in Sources */,
 				DDD187531ACC8ADB008BF921 /* main.m in Sources */,
 				DDD187511ACC8ADB008BF921 /* AppDelegate.m in Sources */,
-				DDD187731ACC8B2E008BF921 /* ModelGenerator.m in Sources */,
+				DDD187771ACC8C73008BF921 /* ModelGenerator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
